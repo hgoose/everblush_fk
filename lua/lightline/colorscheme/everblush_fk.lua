@@ -1,6 +1,6 @@
-local p = require('everblush.palette')
+local p = require('everblush_fk.palette')
 
-local everblush = {
+local everblush_fk = {
     normal = {
         left = { { p.background, p.color6, 'bold' }, { p.foreground, p.background } },
         right = { { p.background, p.color6 }, { p.foreground, p.background } },
@@ -36,4 +36,4 @@ local everblush = {
     },
 }
 
-return everblush
+return everblush_fk

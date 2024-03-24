@@ -8,7 +8,7 @@ local function parse_color(color)
 	color = color:lower()
 
 	if not color:find('#') and color ~= 'none' then
-		color = require('everblush.palette')[color]
+		color = require('everblush_fk.palette')[color]
 			or vim.api.nvim_get_color_by_name(color)
 	end
 

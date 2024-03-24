@@ -1,7 +1,7 @@
 local M = {}
 
 function M.get(config)
-    local p = require('everblush.palette')
+    local p = require('everblush_fk.palette')
 
     local theme = {}
 

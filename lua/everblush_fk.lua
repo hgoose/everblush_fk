@@ -1,4 +1,4 @@
-local util = require('everblush.util')
+local util = require('everblush_fk.util')
 
 local M = {}
 
@@ -21,9 +21,9 @@ function M.colorscheme()
 	end
 
 	vim.opt.termguicolors = true
-	vim.g.colors_name = 'everblush'
+	vim.g.colors_name = 'everblush_fk'
 
-	local theme = require('everblush.theme').get(config)
+	local theme = require('everblush_fk.theme').get(config)
 
 	-- Set theme highlights
 	for group, color in pairs(theme) do
